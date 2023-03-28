@@ -1,0 +1,542 @@
+ * {
+ 	margin: 0;
+ 	padding: 0;
+ 	box-sizing: border-box;
+ }
+
+ body {
+ 	font-family: Arial, Helvetica, sans-serif, 'Nunito';
+ }
+
+
+ header,
+ footer,
+ section,
+ article,
+ main,
+ nav,
+ aside,
+ head {
+
+ 	display: block;
+ }
+
+ @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@300&display=swap');
+
+ header {
+ 	margin-top: 40px;
+
+ 	width: 100%;
+
+
+ }
+
+ #logo {
+ 	background-image: url("../images/Amin.png");
+ 	text-decoration: none;
+
+ 	background-repeat: no-repeat;
+ 	background-size: contain;
+
+ 	margin-left: 40px;
+ 	margin-bottom: 50px;
+
+ 	display: block;
+ 	width: 350px;
+ 	height: 30px;
+
+
+
+ }
+
+ #logo span {
+ 	font-family: Nunito;
+ 	color: #3E3F43;
+ 	font-size: 24px;
+ 	font-weight: 700;
+ 	margin-left: 30px;
+ 	/* text-align: center; */
+ 	height: 33px;
+ 	display: block;
+
+
+
+ }
+
+ #UpperRectangle {
+ 	background-color: #F9BDBD;
+ 	width: 100%;
+ 	height: 555px;
+ 	position: relative;
+
+ }
+
+ #upperTextsContainer {
+ 	position: absolute;
+ 	width: 100%;
+ 	height: 100%;
+
+ }
+
+
+
+ .upperText1 {
+ 	font-family: 'Nunito', sans-serif;
+ 	font-weight: 800;
+ 	font-size: 36px;
+ 	line-height: 49.1px;
+ 	margin-left: 506px;
+ 	margin-top: 83px;
+ 	width: 448px;
+ 	height: 98px;
+ }
+
+ .upperText2 {
+ 	font-family: 'Nunito', sans-serif;
+ 	font-weight: 600;
+ 	font-size: 24px;
+ 	line-height: 32.74px;
+ 	margin-left: 506px;
+ 	margin-top: 16px;
+ 	width: 448px;
+ 	height: 66px;
+ }
+
+ #InnerRectangle {
+
+ 	background-color: #F7DEA6;
+
+ 	background-repeat: no-repeat;
+ 	position: absolute;
+ 	width: 278px;
+ 	height: 388px;
+ 	left: 40px;
+ 	top: 206px;
+ 	border-radius: 0px 100px 0px 100px;
+ }
+
+ main .rectangle .Amin {
+ 	position: absolute;
+ 	width: 500px;
+ 	margin-top: 2px;
+
+
+ }
+
+ .profileImage {
+ 	position: absolute;
+ 	margin-left: 78px;
+ 	margin-top: 165px;
+ 	border-radius: 50px 50px 50px 50px;
+ }
+
+
+
+ .About_h2 {
+ 	font-size: 30px;
+ 	color: #000000;
+ 	width: 200px;
+ 	height: 40px;
+ }
+
+ .Pcontent {
+ 	font-weight: 400;
+ 	font-family: 'Rubik', sans-serif;
+ 	font-size: 20px;
+ 	line-height: 28.13px;
+ 	color: #000000;
+ 	width: 741px;
+ 	height: 394px;
+ 	margin-top: 24px;
+ 	white-space: pre-line;
+
+
+ }
+
+ .wrapper {
+ 	margin: 24px 40px;
+
+ }
+
+
+ .Card {
+ 	width: 200px;
+ 	height: 264px;
+ }
+
+ .Exercises_h2 {
+ 	font-size: 30px;
+ 	color: #000000;
+ 	width: 140px;
+ 	height: 40px;
+ 	font-weight: 500;
+ 	font-family: 'Rubik', sans-serif;
+ }
+
+ #section1 {
+ 	width: 741px;
+ 	height: 458px;
+ 	margin-top: 24px;
+ }
+
+ #section2 {
+ 	width: 1150px;
+ 	height: 328px;
+ 	margin-top: 83px;
+ 	position: relative;
+ }
+
+
+
+
+
+ .firstCard {
+ 	/* background-image: url("../images/woman.png"); */
+ 	width: 200px;
+ 	height: 264px;
+ 	background-color: #FDEDE5;
+ 	margin-right: 24px;
+ 	border-radius: 50px;
+ 	background-repeat: no-repeat;
+ 	display: inline-block;
+ 	background-position: 200px 200px 200px 200px;
+ }
+
+
+
+ .secondCard {
+ 	width: 200px;
+ 	height: 264px;
+ 	margin-right: 24px;
+ 	background-color: #EBF1FF;
+ 	border-radius: 50px;
+
+ 	display: inline-block;
+ }
+
+ .thirdCard {
+ 	width: 200px;
+ 	height: 264px;
+ 	margin-right: 24px;
+ 	background-color: #EBFFEC;
+ 	border-radius: 50px;
+
+ 	display: inline-block;
+ }
+
+ .fourthCard {
+ 	width: 200px;
+ 	height: 264px;
+ 	background-color: #FFEBFC;
+ 	margin-right: 24px;
+ 	border-radius: 50px;
+
+ 	display: inline-block;
+ }
+
+ .fifthCard {
+ 	width: 200px;
+ 	height: 264px;
+ 	background-color: #FFFEEB;
+ 	border-radius: 50px;
+
+
+ 	display: inline-block;
+
+ }
+
+ #woman {
+ 	display: inline;
+ }
+
+ #section3 {
+ 	width: 364px;
+ 	height: 265px;
+ 	margin-top: 80px;
+ }
+
+ .h2_Program_Language {
+ 	width: 364px;
+ 	height: 40px;
+ 	font-size: 30px;
+ 	font-weight: 500;
+ 	font-family: 'Rubik', sans-serif;
+ 	color: #000000;
+
+ }
+
+ .languages_list {
+ 	width: 364px;
+ 	height: 141px;
+ 	margin-left: 24px;
+ 	font-size: 20px;
+ 	font-weight: 400;
+ 	font-family: 'Rubik', sans-serif;
+ 	color: #000000;
+
+ 	display: block;
+ }
+
+ #section4 {
+ 	width: 1120px;
+ 	height: 572px;
+ 	margin-top: 40px;
+ }
+
+ .h2_my_vision {
+ 	width: 169px;
+ 	height: 40px;
+ 	font-size: 30px;
+ 	font-weight: 500;
+ 	line-height: 40px;
+ 	font-family: 'Rubik', sans-serif;
+ }
+
+ .lowerRectangle {
+ 	width: 1120px;
+ 	height: 508px;
+ 	background-color: #F9BDBD;
+ }
+
+
+
+
+ footer {
+ 	position: absolute;
+ 	/* set position of footer to relative */
+
+ 	width: 100%;
+ 	height: 301px;
+ 	background-image: url("../images/footer.png");
+ 	background-repeat: no-repeat;
+ 	background-size: cover;
+ 	margin-top: 271px;
+
+ }
+
+
+
+ .followUsP {
+
+ 	margin-top: 32px;
+ 	font-size: 18px;
+ 	font-weight: 600;
+ 	font-family: 'Nunito', sans-serif;
+ 	color: #333333;
+ 	line-height: 24.55px;
+ 	margin-left: 40px;
+ }
+
+ .FacebookLink {
+ 	position: absolute;
+ 	margin-top: 16px;
+ 	margin-left: 40px;
+
+
+ 	color: #8D8D8D;
+ 	font-family: 'Nunito', sans-serif;
+ 	font-weight: 400;
+ 	font-size: 14px;
+ 	line-height: 19.1px;
+ 	text-decoration: none;
+ }
+
+
+ .InstagramLink {
+ 	position: absolute;
+
+ 	margin-left: 40px;
+
+
+ 	color: #8D8D8D;
+ 	font-family: 'Nunito', sans-serif;
+ 	font-weight: 400;
+ 	font-size: 14px;
+ 	line-height: 19.1px;
+ 	margin-top: 51px;
+
+
+ 	text-decoration: none;
+ }
+
+ .TwitterLink {
+ 	position: absolute;
+
+ 	color: #8D8D8D;
+ 	margin-left: 40px;
+
+ 	font-family: 'Nunito', sans-serif;
+ 	font-weight: 400;
+ 	font-size: 14px;
+ 	line-height: 19.1px;
+ 	margin-top: 86px;
+
+ 	text-decoration: none;
+
+ }
+
+ .copyRight {
+ 	margin-left: 40px;
+
+ 	font-family: 'Nunito', sans-serif;
+ 	font-weight: 600;
+ 	font-size: 12px;
+ 	line-height: 16.37px;
+ 	margin-top: 196px;
+ 	color: #8D8D8D;
+
+
+ 	text-decoration: none;
+
+ }
+
+ .links_list {
+ 	list-style-type: none;
+ }
+
+
+
+ .container {
+ 	position: relative;
+ }
+
+ .container img {
+ 	position: absolute;
+ 	top: 14px;
+ 	left: 32px;
+
+ 	border-radius: 50px 50px 50px 50px;
+
+ 	display: inline-block;
+ }
+
+ .container .secondImage {
+ 	position: absolute;
+ 	top: 14px;
+ 	left: 256px;
+
+ 	border-radius: 50px 50px 50px 50px;
+
+ 	display: inline-block;
+
+ }
+
+ .container .thirdImage {
+ 	position: absolute;
+ 	top: 14px;
+ 	left: 480px;
+
+ 	border-radius: 50px 50px 50px 50px;
+
+ 	display: inline-block;
+
+ }
+
+ .container .fourthImage {
+ 	position: absolute;
+ 	top: 14px;
+ 	left: 704px;
+
+ 	border-radius: 50px 50px 50px 50px;
+
+ 	display: inline-block;
+
+ }
+
+ .container .fifthImage {
+ 	position: absolute;
+ 	top: 14px;
+ 	left: 928px;
+
+ 	border-radius: 50px 50px 50px 50px;
+
+ 	display: inline-block;
+
+ }
+
+ .button {
+ 	position: absolute;
+ 	width: 120px;
+ 	height: 40px;
+
+ 	margin-top: 184px;
+ 	margin-left: 24px;
+ 	background-color: #ffffff;
+
+
+
+ 	border-radius: 30px 30px 30px 30px;
+ }
+
+ .view {
+ 	position: absolute;
+ 	width: 88px;
+ 	height: 24px;
+ 	font-family: 'Rubik', sans-serif;
+ 	font-weight: 500;
+ 	font-size: 14px;
+ 	line-height: 24px;
+ 	color: #000000;
+ 	margin-top: 8px;
+ 	margin-left: 16.84px;
+ 	margin-right: 15.16px;
+ 	text-align: center;
+
+
+ }
+
+
+
+
+ .text {
+ 	position: absolute;
+ 	width: 77px;
+ 	height: 24px;
+ 	font-family: 'Rubik', sans-serif;
+ 	font-weight: 500;
+ 	font-size: 16px;
+ 	line-height: 24px;
+
+ 	color: #000000;
+ 	margin-top: 128px;
+ 	margin-left: 24px;
+
+ }
+ .button:hover {
+ 	background-color: #000000;
+
+	
+ }
+
+ #ex1B:hover > .view {
+ 	color :#FDEDE5;
+ }
+
+ #ex2B:hover > .view {
+	color :#EBF1FF;
+}
+
+#ex3B:hover > .view {
+	color :#EBFFEC;
+}
+
+#ex4B:hover > .view {
+	color :#FFEBFC;
+}
+
+#ex5B:hover > .view {
+	color :#FFFEEB;
+}
+
+.lowerRectangle p{
+	font-weight: 400;
+ 	font-family: 'Rubik', sans-serif;
+ 	font-size: 20px;
+ 	line-height: 28.13px;
+ 	color: #000000;
+ 	
+ 	margin-left:20px;
+ 	white-space: pre-line;
+
+}
+
